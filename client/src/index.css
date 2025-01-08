@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+     font-family: "Poppins";
+     src: url("./Fonts/Poppins.woff2");
+}
+
+
+@font-face {
+     font-family: "Nova";
+     src: url("./Fonts/Proxima\ Nova.woff2");
+}
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.container {
+     max-width: 1345px;
+     margin: 0 auto;
+     padding: 0 20px;
+}
+.text {
+     font-family: "Nova";
+}
+.title {
+     font-family: "Poppins";
+}
+.ant-col {
+     padding: 0 !important;
+     margin: 0 !important;
+     text-align: start !important;
+     flex: none !important;
+     display: block !important;
+     max-width: 100% !important;
+     width: 100% !important;
+}
+.ant-form-item  {
+     margin: 0 ;
+}
+.ant-col label {
+     font-family: "Poppins";
+}
+.auth-form {
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+}
+.ant-form-item {
+     flex: 1;
+}
